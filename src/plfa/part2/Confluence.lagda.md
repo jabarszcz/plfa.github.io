@@ -591,7 +591,7 @@ Confluence of reduction is a corollary of confluence for parallel
 reduction. From
 `L —↠ M₁` and `L —↠ M₂` we have
 `L ⇛* M₁` and `L ⇛* M₂` by `betas-pars`.
-Then by confluence we obtain some `L` such that
+Then by confluence we obtain some `N` such that
 `M₁ ⇛* N` and `M₂ ⇛* N`, from which we conclude that
 `M₁ —↠ N` and `M₂ —↠ N` by `pars-betas`.
 
